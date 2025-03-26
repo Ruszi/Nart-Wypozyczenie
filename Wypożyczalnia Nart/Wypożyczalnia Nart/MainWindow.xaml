@@ -1,0 +1,20 @@
+﻿<Window x:Class="Wypożyczalnia_Nart.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wypożyczalnia_Nart"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
+            <TextBlock Text="Wypożyczalnia Nart" FontSize="24" FontWeight="Bold" 
+                       HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <Button Content="Zarządzanie sprzętem" Height="40" Margin="0,5" Click="Equipment_Click"/>
+            <Button Content="Nowe wypożyczenie" Height="40" Margin="0,5" Click="NewRental_Click" />
+            <Button Content="Historia wypożyczeń" Height="40" Margin="0,5"/>
+            <Button Content="Zamknij" Height="40" Margin="0,5" Click="Close_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
