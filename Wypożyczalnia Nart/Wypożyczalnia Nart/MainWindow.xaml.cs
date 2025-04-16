@@ -35,6 +35,16 @@ namespace Wypożyczalnia_Nart
             NewRentalWindow oknoNoweWypozyczenie = new NewRentalWindow();
             oknoNoweWypozyczenie.ShowDialog();
         }
+        private void History_Click(object sender, RoutedEventArgs e)
+        {
+            var historyWindow = new HistoryWindow();
+            historyWindow.ShowDialog();
+        }
+        private void Return_Click(object sender, RoutedEventArgs e)
+        {
+            var returnWindow = new ReturnWindow();
+            returnWindow.ShowDialog();
+        }
 
 
     }

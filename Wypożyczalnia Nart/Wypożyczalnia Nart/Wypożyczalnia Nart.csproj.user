@@ -10,7 +10,13 @@
     <Compile Update="equipmentWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="HistoryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="NewRentalWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReturnWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
